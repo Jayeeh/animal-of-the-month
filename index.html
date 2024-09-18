@@ -1,15 +1,27 @@
 <!doctype html>
 <html>
   <head>
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- Main heading for the page -->
     <h1>Zoo Animal of the Month</h1>
-    <img src="/img/panda.png">
+    
+    <!-- Image of the animal -->
+    <img src="/img/panda.png" alt="Panda">
+    
+    <!-- Quote from the animal -->
     <p><em>"Nom nom nom"</em></p>
+    
+    <!-- Display the current number of votes -->
     <p id="votes">3 Votes</p>
+    
+    <!-- Buttons to upvote and downvote -->
     <button id="upvote" onclick="upvote()">Upvote</button>
     <button id="downvote" onclick="downvote()">Downvote</button>
+    
+    <!-- Link to external JavaScript file for functionality -->
     <script src="script.js"></script>
   </body>
 </html>

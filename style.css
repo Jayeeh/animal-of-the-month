@@ -1,30 +1,37 @@
+/* Center align text and set font for the entire body */
 body {
     text-align: center;
     font-family: sans-serif;
   }
   
+  /* Style for the image */
   img {
-    border-radius: 10px;
+    border-radius: 10px; /* Rounded corners for the image */
   }
   
+  /* Style for the buttons */
   button {
-    margin: 5px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
+    margin: 5px; /* Space around the buttons */
+    border-radius: 10px; /* Rounded corners for the buttons */
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    padding: 10px; /* Space inside the buttons */
+    font-size: 16px; /* Font size for the button text */
   }
   
+  /* Style for the votes display */
   #votes {
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: bold; /* Bold text */
+    font-size: 25px; /* Larger font size */
   }
   
+  /* Specific style for the upvote button */
   #upvote {
-    background-color: green;
+    background-color: green; /* Green background */
   }
   
+  /* Specific style for the downvote button */
   #downvote {
-    background-color: red;
+    background-color: red; /* Red background */
   }
+  
